@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#c90000">
+  <meta name="description" content="Portal download sertifikat Elizabeth International">
+  <title>Certificate Portal | Elizabeth International</title>
+
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="/style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
+  <script src="/script.js" defer></script>
+</head>
+<body>
+  <main class="page-shell">
+    <section class="portal-card">
+      <div class="brand-strip"></div>
+
+      <header class="hero">
+        <img class="brand-logo" src="/assets/logo-elizabeth.png" alt="Elizabeth International">
+        <span class="eyebrow">CERTIFICATE PORTAL</span>
+        <h1>Download Sertifikat Anda</h1>
+        <p>Masukkan NIM untuk mengecek sertifikat yang tersedia.</p>
+      </header>
+
+      <section class="content">
+        <form id="searchForm" class="search-form">
+          <label class="sr-only" for="nim">NIM</label>
+          <input id="nim" name="nim" type="text" inputmode="text" autocomplete="off"
+                 placeholder="Contoh: 2025.02.02.001" maxlength="40">
+          <button id="searchBtn" type="submit">Cari Sertifikat</button>
+        </form>
+
+        <div id="status" class="status" aria-live="polite"></div>
+
+        <section id="studentCard" class="student-card hidden">
+          <div class="student-head">
+            <div>
+              <span class="student-label">DATA MAHASISWA</span>
+              <h2 id="studentName">-</h2>
+              <p><strong>NIM:</strong> <span id="studentNim">-</span></p>
+              <p><strong>Kelas:</strong> <span id="studentClass">-</span></p>
+            </div>
+            <div class="verified">✓ Terverifikasi</div>
+          </div>
+
+          <div id="certList" class="certificate-grid"></div>
+        </section>
+      </section>
+
+      <footer>
+        Elizabeth International · Hotel & Business School
+      </footer>
+    </section>
+  </main>
+</body>
+</html>
