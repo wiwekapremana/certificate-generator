@@ -1,4 +1,5 @@
 \
+console.log('script.js berhasil dimuat');
 /*
   WAJIB DIUBAH:
   Tempel URL deployment Google Apps Script /exec Anda di bawah ini.
