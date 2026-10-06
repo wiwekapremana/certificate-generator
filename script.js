@@ -8,11 +8,11 @@
 const API_URL = 'https://script.google.com/macros/s/AKfycbz24fnwiQP5O_n31JW8iLk97h4eoQ2kZOSpgHH9l8fjF0XAJTK_jnordmmwmRQ6unasWw/exec';
 
 const TEMPLATE_URLS = {
-  BEAUTY: '/templates/beauty-class.jpeg',
-  YLT_2022: '/templates/ylt-2022.jpeg',
-  YLT_2023: '/templates/ylt-2023.jpeg',
-  YLT_2024: '/templates/ylt-2024.jpeg',
-  YLT_2025: '/templates/ylt-2025.jpeg'
+  BEAUTY: 'templates/beauty-class.jpeg',
+  YLT_2022: 'templates/ylt-2022.jpeg',
+  YLT_2023: 'templates/ylt-2023.jpeg',
+  YLT_2024: 'templates/ylt-2024.jpeg',
+  YLT_2025: 'templates/ylt-2025.jpeg'
 };
 
 /*
