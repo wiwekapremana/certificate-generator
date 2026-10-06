@@ -1,11 +1,3 @@
-\
-console.log('script.js berhasil dimuat');
-/*
-  WAJIB DIUBAH:
-  Tempel URL deployment Google Apps Script /exec Anda di bawah ini.
-  Contoh:
-  const API_URL = 'https://script.google.com/macros/s/AKfycbxxxx/exec';
-*/
 const API_URL = 'https://script.google.com/macros/s/AKfycbz24fnwiQP5O_n31JW8iLk97h4eoQ2kZOSpgHH9l8fjF0XAJTK_jnordmmwmRQ6unasWw/exec';
 
 const TEMPLATE_URLS = {
