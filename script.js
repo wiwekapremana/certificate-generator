@@ -20,7 +20,7 @@ const TEMPLATE_URLS = {
 const LAYOUT = {
   BEAUTY: {
     x: 800,
-    y: 535,
+    y: 575,
     maxSize: 42,
     minSize: 21,
     maxWidth: 1080
